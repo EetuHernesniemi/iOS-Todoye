@@ -30,7 +30,15 @@
                             <outlet property="delegate" destination="zih-7C-ui2" id="Hyh-Zj-tR9"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Todoye" id="KRF-Ff-ugh"/>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="Todoye" id="KRF-Ff-ugh">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="PAb-73-dxL">
+                            <connections>
+                                <action selector="addButtonPressed:" destination="zih-7C-ui2" id="Qwj-dI-Ojy"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5o7-T9-T8f" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
