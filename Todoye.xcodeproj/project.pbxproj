@@ -17,6 +17,7 @@
 		3C3A702327F2EA6C002FB5D2 /* TodoyeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3A702227F2EA6C002FB5D2 /* TodoyeUITests.swift */; };
 		3C3A702527F2EA6C002FB5D2 /* TodoyeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3A702427F2EA6C002FB5D2 /* TodoyeUITestsLaunchTests.swift */; };
 		3C6D3AD827F6E4C9004F9BCF /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3C6D3AD627F6E4C9004F9BCF /* DataModel.xcdatamodeld */; };
+		3C6D3B1927FADEAB004F9BCF /* ItemCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6D3B1827FADEAB004F9BCF /* ItemCategoryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		3C3A702227F2EA6C002FB5D2 /* TodoyeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoyeUITests.swift; sourceTree = "<group>"; };
 		3C3A702427F2EA6C002FB5D2 /* TodoyeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoyeUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		3C6D3AD727F6E4C9004F9BCF /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
+		3C6D3B1827FADEAB004F9BCF /* ItemCategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCategoryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +142,7 @@
 		3C42148E27F577CE000F8ABC /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				3C6D3B1827FADEAB004F9BCF /* ItemCategoryViewController.swift */,
 				3C3A700527F2EA6B002FB5D2 /* TodoListViewController.swift */,
 			);
 			path = Controllers;
@@ -293,6 +296,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C6D3B1927FADEAB004F9BCF /* ItemCategoryViewController.swift in Sources */,
 				3C6D3AD827F6E4C9004F9BCF /* DataModel.xcdatamodeld in Sources */,
 				3C3A700627F2EA6B002FB5D2 /* TodoListViewController.swift in Sources */,
 				3C3A700227F2EA6B002FB5D2 /* AppDelegate.swift in Sources */,
