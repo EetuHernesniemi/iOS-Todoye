@@ -47,6 +47,21 @@ class ItemCategoryViewController: UITableViewController {
         }
     }
     
+    override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
+        if editingStyle == .delete {
+            if let category = categories?[indexPath.row] {
+                do {
+                    try realm.write {
+                        realm.delete(category)
+                    }
+                } catch {
+                    print("Error deleting item category, \(error)")
+                }
+                tableView.reloadData()
+            }
+        }
+    }
+    
     //MARK: - Data Manipulation Methods
     
     func save(itemCategory: ItemCategory) {
